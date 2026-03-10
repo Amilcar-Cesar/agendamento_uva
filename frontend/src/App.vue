@@ -28,11 +28,6 @@
         </span>
       </button>
 
-      <div class="topbar-actions">
-        <button class="btn btn-primary" type="button" @click="goLogin" v-if="!isAuthenticated">
-          Acessar
-        </button>
-      </div>
     </header>
 
     <main aria-label="Conteúdo">
@@ -50,14 +45,6 @@ const isAuthenticated = computed(() => !!localStorage.getItem('token'));
 
 function goHome() {
   router.push(isAuthenticated.value ? '/dashboard' : '/login');
-}
-
-function goLogin() {
-  router.push('/login');
-}
-
-function goDashboard() {
-  router.push('/dashboard');
 }
 </script>
 
