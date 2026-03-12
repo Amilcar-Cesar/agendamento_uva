@@ -8,6 +8,9 @@ Aplicação fullstack para recepcionistas de clínica, com:
   - **API de clima**: WeatherAPI.com para previsão no dia da consulta.
 - **Frontend (Vue 3 + Vite)**: painéis separados para agendar consultas e visualizar consultas marcadas.
 
+### Link de deploy do projeto
+- https://agendamento-uva.vercel.app/login
+  
 ### Arquitetura geral
 
 - **Backend**: `backend/`
